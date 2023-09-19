@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+
+  kafka:
+    image: 'bitnami/kafka'
+    ports:
+      - "6379:6379"
